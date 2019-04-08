@@ -25,7 +25,7 @@ steps:
   displayName: Copy Files
   inputs:
     SourceFolder: $(system.defaultworkingdirectory)
-    Contents: 'helloworld.war'
+    Contents: '**'
     TargetFolder: $(build.artifactstagingdirectory)
 
 - task: PublishBuildArtifacts@1
