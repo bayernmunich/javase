@@ -41,6 +41,6 @@ steps:
   inputs:
     azureSubscription: $(azureSubscription)
     appType: webAppLinux
-    appName: myazurejavademoapp1
+    appName: azurejavademoapp1
     package: $(build.artifactstagingdirectory)/**/*.war
     
